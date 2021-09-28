@@ -476,7 +476,8 @@ section {
 
 .section-title {
   font-size: 15px;
-  color:white;
+  color:black;
+  font-style: bold;
   text-transform: uppercase;
   text-align: center;
   font-weight: 500;
