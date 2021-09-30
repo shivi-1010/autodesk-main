@@ -1957,3 +1957,22 @@ p.big2 {
   border: 1px solid rgba(0,0,0,.125);
   text-align: center;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 90px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display:Table;
+  clear: both;
+}
