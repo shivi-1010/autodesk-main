@@ -1976,3 +1976,9 @@ p.big2 {
   display:Table;
   clear: both;
 }
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
